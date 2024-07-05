@@ -1,0 +1,113 @@
+:root {
+    --main-bgColour: rgb(58, 58, 70);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.logo {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 5rem;
+    color: transparent;
+    margin-bottom: 50px;
+    -webkit-text-stroke: 1px white;
+    text-align: center;
+}
+
+.background {
+    background-image: url(../assets/1153825.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.background .info {
+    color: white;
+}
+
+.background .userInfo {
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+.loginResult {
+    animation: fadeIn 0.5s ease-in-out both;
+    backdrop-filter: blur(30px);
+    opacity: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(189, 189, 189, 0.281);
+    border: 2px solid transparent;
+    border-radius: 15px;
+    max-width: 80%;
+    padding: 40px 20px;
+    box-shadow: 0 0px 10px rgb(112, 77, 77);
+    animation: fadeIn 0.5s ease-in-out 0.3s both;
+    transition: all 0.3s;
+}
+
+.loginResult:hover {
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 0 0 5px white; 
+}
+
+/* .loginItem {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+} */
+
+.row {
+    display: flex;
+    align-items: center;
+    margin: 10px 45px;
+}
+
+.logOut {
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    padding: 5px 25px;
+    background-color: rgb(216, 85, 85);
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.logOut:hover {
+    background-color: red;
+}
+
+.icon {
+    color: white;
+    font-size: 2rem;
+    margin: auto;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.548);
+    margin-top: 20px;
+}
