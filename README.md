@@ -1,5 +1,7 @@
 # RePost
 
+![RePost](https://i.gyazo.com/52115c6afc78c9615040bf3628c8b1fe.png)
+
 ## Description
 RePost is a 'social media' application developed using React. It utilises a 'mock' database to manage user accounts, including user registration and login. You are allowed to use, share, or modify it as you wish, but **commercial use, such as selling, is prohibited.**
 
